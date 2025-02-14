@@ -1,0 +1,113 @@
+Step-by-Step Instructions to Create a Git Repository
+Step 1: Install Git
+If you haven't already installed Git, download and install it from git-scm.com.
+
+Step 2: Open Command Line Interface
+On Windows, you can use Command Prompt or Git Bash.
+On macOS or Linux, open the Terminal.
+Step 3: Navigate to Your Desired Directory
+Use the cd command to navigate to the directory where you want to create your Git repository. For example:
+
+bash
+Copy code
+cd path/to/your/directory
+Step 4: Create a New Git Repository
+Use the following command to create a new Git repository named with your enrollment number (replace YOUR_ENROLLMENT_NUMBER with your actual enrollment number):
+
+bash
+Copy code
+git init YOUR_ENROLLMENT_NUMBER
+Step 5: Navigate into the Repository
+Change into the newly created directory:
+
+bash
+Copy code
+cd YOUR_ENROLLMENT_NUMBER
+Step 6: Create Folders for Assignments
+Create two folders named Assignment_1 and Assignment_2:
+
+bash
+Copy code
+mkdir Assignment_1
+mkdir Assignment_2
+Step 7: Verify the Structure
+You can verify that the folders have been created by listing the contents of the directory:
+
+bash
+Copy code
+ls
+You should see:
+
+Copy code
+Assignment_1
+Assignment_2
+Step 8: Add Files to the Repository (Optional)
+If you want to add files to your folders, you can create files using a text editor or the command line. For example:
+
+bash
+Copy code
+touch Assignment_1/example_file.txt
+touch Assignment_2/example_file.txt
+Step 9: Stage and Commit Changes
+To stage the changes and commit them to the repository, use the following commands:
+
+bash
+Copy code
+git add .
+git commit -m "Initial commit with Assignment folders"
+Step 10: (Optional) Create a Remote Repository
+If you want to push your local repository to a remote server (like GitHub), you can create a new repository on GitHub and then link it:
+
+bash
+Copy code
+git remote add origin https://github.com/yourusername/YOUR_ENROLLMENT_NUMBER.git
+git push -u origin master
+Documenting the Steps in a Word File
+Open Microsoft Word (or any word processor).
+Create a New Document.
+Title the Document: "Steps to Create a Git Repository".
+Write the Steps: Copy the steps outlined above into the document.
+Format the Document: Use headings, bullet points, and numbering for clarity.
+Save the Document: Save the file with an appropriate name, such as "Git_Repository_Steps.docx".
+Example of How the Word Document Might Look
+Copy code
+Title: Steps to Create a Git Repository
+
+1. Install Git
+   - Download and install from git-scm.com.
+
+2. Open Command Line Interface
+   - Use Command Prompt, Git Bash, Terminal, etc.
+
+3. Navigate to Your Desired Directory
+   - cd path/to/your/directory
+
+4. Create a New Git Repository
+   - git init YOUR_ENROLLMENT_NUMBER
+
+5. Navigate into the Repository
+   - cd YOUR_ENROLLMENT_NUMBER
+
+6. Create Folders for Assignments
+   - mkdir Assignment_1
+   - mkdir Assignment_2
+
+7. Verify the Structure
+   - ls
+
+8. Add Files to the Repository (Optional)
+   - touch Assignment_1/example_file.txt
+   - touch Assignment_2/example_file.txt
+
+9. Stage and Commit Changes
+   - git add .
+   - git commit -m "Initial commit with Assignment folders"
+
+10. (Optional) Create a Remote Repository
+    - git remote add origin https://github.com/yourusername/YOUR_ENROLLMENT_NUMBER.git
+    - git push -u origin master
+By following these steps, you will have successfully created a Git repository and documented the process in a Word file.
+
+
+
+
